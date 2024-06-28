@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: c6f7cb314261da6499824a3fabddb59e
+  - enabled: 1
+    path: Assets/Scenes/Materi.unity
+    guid: 2bc6d412b2f9f31498259e39336834fe
+  - enabled: 1
+    path: Assets/Scenes/Game0.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Game1.unity
+    guid: 48bde00474b53864fb4fccc2eae78c2c
+  - enabled: 1
+    path: Assets/Scenes/Game2.unity
+    guid: 38f8afd6e619a8d4f8e6e5ea07619be5
+  - enabled: 1
+    path: Assets/Scenes/Game3.unity
+    guid: bc230c168bb77c145b85d5024dd9de00
+  - enabled: 1
+    path: Assets/Scenes/Game4.unity
+    guid: e6e86ff27f83c7a418e220de753f4805
+  - enabled: 1
+    path: Assets/Scenes/GameTebak0.unity
+    guid: 8c3e40dd98d733b49a2332bf731d36d5
+  - enabled: 1
+    path: Assets/Scenes/GameTebak1.unity
+    guid: 2d92003a1c3dbbe4e86903b063b96cf0
+  - enabled: 1
+    path: Assets/Scenes/GameTebak2.unity
+    guid: 4abecf04f44c82142adad10bad165e21
+  - enabled: 1
+    path: Assets/Scenes/GameTebak3.unity
+    guid: a6de15b10b02d934ba52b89134647c45
+  - enabled: 1
+    path: Assets/Scenes/GameTebak4.unity
+    guid: 6b2f2d0e2de2b9345bf4482948ef7e05
+  - enabled: 1
+    path: Assets/Scenes/GameSelesai.unity
+    guid: ed1ff3737090bc34b9b2d17a09e83b75
+  - enabled: 1
+    path: Assets/Scenes/GameFinish.unity
+    guid: a86b7ebaa9756d941b846c58fbbb0bea
+  m_configObjects: {}
