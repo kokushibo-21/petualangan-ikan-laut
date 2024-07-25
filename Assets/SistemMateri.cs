@@ -36,7 +36,7 @@ public class SistemMateri : MonoBehaviour
         {
             Data_Materi++;
 
-            if(Data_Materi >= _Data.Count - 1)
+            if (Data_Materi >= _Data.Count - 1)
             {
                 Data_Materi = 0;
             }
@@ -44,7 +44,7 @@ public class SistemMateri : MonoBehaviour
         else
         {
             Data_Materi--;
-            if(Data_Materi <= 0)
+            if (Data_Materi <= 0)
             {
                 Data_Materi = _Data.Count - 1;
             }
@@ -57,12 +57,12 @@ public class SistemMateri : MonoBehaviour
     public void v_SetMateri()
     {
         Gambar_Materi.GetComponent<Animation>().Play("Animasi Tombol");
-        
+
         Gambar_Materi.sprite = _Data[Data_Materi].Materi_Gambar;
         Teks_NamaIkan.text = _Data[Data_Materi].Materi_Nama;
         Teks_Penjelasan.text = _Data[Data_Materi].Materi_Penjelasan;
-        
-        
+
+
         v_SetSuara();
 
         Teks_Nomor.text = (Data_Materi + 1) + " / " + (_Data.Count);
@@ -70,22 +70,28 @@ public class SistemMateri : MonoBehaviour
 
     public void v_SetSuara()
     {
-        if(SourceSuara.clip != null && SourceSuara.isPlaying)
-        {
-            SourceSuara.Stop();
-        }
-
-        SourceSuara.clip = _Data[Data_Materi].Materi_Suara;
-
-    }
-
-    public void v_PanggilSuara()
-    {
         if (SourceSuara.clip != null && SourceSuara.isPlaying)
         {
             SourceSuara.Stop();
         }
 
-        SourceSuara.Play();
+        SourceSuara.clip = _Data[Data_Materi].Materi_Suara;
+    }
+
+    public void v_PanggilSuara()
+    {
+        if (SourceSuara.clip == null)
+        {
+            return;
+        }
+
+        if (SourceSuara.isPlaying)
+        {
+            SourceSuara.Pause();
+        }
+        else
+        {
+            SourceSuara.Play();
+        }
     }
 }

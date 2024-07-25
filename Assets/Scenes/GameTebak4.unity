@@ -667,6 +667,26 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.1
       objectReference: {fileID: 0}
+    - target: {fileID: 2521705160082910987, guid: 79c5deae134667d47a169e8c687a6954, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: cc82f9e246ef86b4fa89dd630d3fd38e, type: 3}
+    - target: {fileID: 3471789237058312056, guid: 79c5deae134667d47a169e8c687a6954, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 167157211}
+    - target: {fileID: 3471789237058312056, guid: 79c5deae134667d47a169e8c687a6954, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: btn_suara
+      objectReference: {fileID: 0}
+    - target: {fileID: 4097337108032189763, guid: 79c5deae134667d47a169e8c687a6954, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1853221370}
+    - target: {fileID: 4097337108032189763, guid: 79c5deae134667d47a169e8c687a6954, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Panggil_Sfx
+      objectReference: {fileID: 0}
     - target: {fileID: 8383638256324156886, guid: 79c5deae134667d47a169e8c687a6954, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -2098,6 +2118,10 @@ PrefabInstance:
       propertyPath: Clip.Array.data[6]
       value: 
       objectReference: {fileID: 8300000, guid: 696c361d9374c1b448181a9678a4641d, type: 3}
+    - target: {fileID: 3188268071723414630, guid: 6e14c9bd91406a541823ecd330626aaa, type: 3}
+      propertyPath: Clip.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: 713e436a59ac65a44baf1272185fdf6e, type: 3}
     - target: {fileID: 3269116481747459636, guid: 6e14c9bd91406a541823ecd330626aaa, type: 3}
       propertyPath: m_Name
       value: KumpulanSuara
@@ -2148,6 +2172,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e14c9bd91406a541823ecd330626aaa, type: 3}
+--- !u!114 &1853221370 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3188268071723414630, guid: 6e14c9bd91406a541823ecd330626aaa, type: 3}
+  m_PrefabInstance: {fileID: 1853221369}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4d93d9d7ab506d40ba4966bea984111, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &735578819752978600
 PrefabInstance:
   m_ObjectHideFlags: 0
